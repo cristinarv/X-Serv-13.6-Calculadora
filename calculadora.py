@@ -1,5 +1,5 @@
 """Cristina del Río Vergel. 
-Ejercico 2 de python: Hacer una calculadora!/usr/bin/"""
+Ejercico 2 de python: Hacer una calculadora #!/usr/bin/python3"""
 
 import sys
 #extracción de argumentos
