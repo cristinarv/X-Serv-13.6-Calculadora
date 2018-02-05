@@ -10,7 +10,7 @@ except ValueError:
     sys.exit("Error, sólo puedes meter operandos que sean números.")
 # control de argumentos
 if len(sys.argv) != 4:
-    sys.exit("Argumentos inválidos:(python3 calculadora.py funcion operando1 operando2)")
+    sys.exit("Argum inval:python3 calculadora.py funcion operando1 operando2")
 elif funcion == "sumar":
     print("El resultado de la suma es: ", operando1 + operando2)
 elif funcion == "restar":
@@ -23,4 +23,4 @@ elif funcion == "division":
     except ZeroDivisionError:
         print("Error, estás dividiendo entre cero")
 else:
-    print("NO se acepta este tipo de función, pruebe con(sumar, restar, multiplicar, dividir)")
+    print("NO aceptable,pruebe con(sumar, restar, multiplicar, dividir)")
